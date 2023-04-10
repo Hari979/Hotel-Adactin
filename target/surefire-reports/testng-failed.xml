@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.testcases.SearchHotelPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchHotelTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testcases.SearchHotelPageTest -->
+      <class name="com.testcases.BookHotelPageTest">
+        <methods>
+          <include name="loginTitleValidate"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testcases.BookHotelPageTest -->
+      <class name="com.testcases.SelectHotelPageTest">
+        <methods>
+          <include name="loginTitleTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testcases.SelectHotelPageTest -->
+      <class name="com.testcases.LoginTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

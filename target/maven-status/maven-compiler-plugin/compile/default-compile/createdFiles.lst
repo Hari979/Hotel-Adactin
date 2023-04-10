@@ -1,0 +1,10 @@
+com\hotel\pages\BookedItineraryPage.class
+com\hotel\pages\SelectHotelPage.class
+com\hotel\pages\LogoutPage.class
+com\base\Testbase.class
+com\hotel\pages\NewUserReg.class
+com\hotel\pages\LoginPage.class
+com\hotel\pages\BookHotelPage.class
+com\hotel\pages\SearchHotelPage.class
+com\hotel\pages\ChangePasswordPage.class
+com\hotel\pages\ForgotPasswordPage.class

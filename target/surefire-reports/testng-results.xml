@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-04T03:22:05Z" name="Surefire suite" finished-at="2022-12-04T03:22:40Z" duration-ms="34273">
+    <groups>
+    </groups>
+    <test started-at="2022-12-04T03:22:05Z" name="Surefire test" finished-at="2022-12-04T03:22:40Z" duration-ms="34273">
+      <class name="com.testcases.BookHotelPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.BookHotelPageTest@7cc0cdad]" started-at="2022-12-04T03:22:05Z" name="setup" finished-at="2022-12-04T03:22:21Z" duration-ms="15235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTitleValidate()[pri:1, instance:com.testcases.BookHotelPageTest@7cc0cdad]" started-at="2022-12-04T03:22:21Z" name="loginTitleValidate" finished-at="2022-12-04T03:22:21Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTitleValidate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.BookHotelPageTest@7cc0cdad]" started-at="2022-12-04T03:22:21Z" name="tearDown" finished-at="2022-12-04T03:22:21Z" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.BookHotelPageTest -->
+      <class name="com.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.LoginTest@7c7b252e]" started-at="2022-12-04T03:22:21Z" name="setUp" finished-at="2022-12-04T03:22:25Z" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.testcases.LoginTest@7c7b252e]" started-at="2022-12-04T03:22:25Z" name="loginPageTitleTest" finished-at="2022-12-04T03:22:25Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LoginTest@7c7b252e]" started-at="2022-12-04T03:22:25Z" name="tearDown" finished-at="2022-12-04T03:22:27Z" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LoginTest -->
+      <class name="com.testcases.SearchHotelPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.SearchHotelPageTest@4d5d943d]" started-at="2022-12-04T03:22:27Z" name="setup" finished-at="2022-12-04T03:22:31Z" duration-ms="4536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchHotelTest()[pri:1, instance:com.testcases.SearchHotelPageTest@4d5d943d]" started-at="2022-12-04T03:22:31Z" name="searchHotelTest" finished-at="2022-12-04T03:22:33Z" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.SearchHotelPageTest@4d5d943d]" started-at="2022-12-04T03:22:33Z" name="tearDown" finished-at="2022-12-04T03:22:33Z" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SearchHotelPageTest -->
+      <class name="com.testcases.SelectHotelPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.SelectHotelPageTest@368f2016]" started-at="2022-12-04T03:22:33Z" name="setup" finished-at="2022-12-04T03:22:39Z" duration-ms="5702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTitleTest()[pri:1, instance:com.testcases.SelectHotelPageTest@368f2016]" started-at="2022-12-04T03:22:39Z" name="loginTitleTest" finished-at="2022-12-04T03:22:39Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.SelectHotelPageTest@368f2016]" started-at="2022-12-04T03:22:39Z" name="tearDown" finished-at="2022-12-04T03:22:40Z" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SelectHotelPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
